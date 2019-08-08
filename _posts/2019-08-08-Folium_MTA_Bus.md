@@ -4,7 +4,7 @@ title: "Visualizing MTA Bus Locations with Folium"
 author: "Tanya Nabila"
 categories: documentation
 tags: [documentation,sample, visualization]
-image: cuba-1.jpg
+image: 2019-08-08-Folium_MTA_Bus.png
 ---
 
 ## A little data visualization exercise using Folium!
@@ -68,10 +68,10 @@ for i in vMonitor['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['Ve
 
   for i in buses:
       folium.Marker(i, icon=folium.CustomIcon(bus_img, icon_size=(20,20))).add_to(base)
-
+  ```
+  The geometry column from `bus_routes_nyc_may2019` shapefile may contain a `MultiLineString` or a `LineString`. This is to handle both cases.
+  ```    
   for i in MTA_routes.loc[MTA_routes.route_id==route].geometry:
-      # The geometry column from `bus_routes_nyc_may2019` shapefile may contain a `MultiLineString` or a `LineString`.
-      # This is to handle both cases.
       if (type(i) == type(LineString([(0,0),(0,1)]))):
           tmp = []
           for x,y in list(i.coords):
