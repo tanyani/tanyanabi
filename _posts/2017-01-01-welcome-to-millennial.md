@@ -1,11 +1,17 @@
 ---
 layout: post
-title: "Welcome to Millennial!"
-author: "Paul Le"
+title: "Visualizing MTA Bus Locations"
+author: "Tanya Nabila"
 categories: documentation
-tags: [documentation,sample]
+tags: [documentation,sample, visualization]
 image: cuba-1.jpg
 ---
+
+So I tried to fetch real time MTA bus locations and put it together with their routes and stations on a map. From first glance it does seem pretty straightforward, right? We know that there are MTA Bus Time API, TransitFeed API, and New York City has an abundance of open data. All we have to do is figure out how to use their API and put them together.
+
+About the MTA Bus Time API
+
+
 
 Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
 
