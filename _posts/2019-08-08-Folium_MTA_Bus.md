@@ -48,7 +48,7 @@ for i in vMonitor['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['Ve
 
   Lo and behold, the GIS Lab at the Newman Library of Baruch College, CUNY has provided the perfect data into our laps.
 
-  #### [NYC Mass Transit Spatial Layers](https://www.baruch.cuny.edu/confluence/pages/viewpage.action?pageId=28016896)
+  [NYC Mass Transit Spatial Layers](https://www.baruch.cuny.edu/confluence/pages/viewpage.action?pageId=28016896)
 
   I'm using `bus_routes_nyc_may2019` and `bus_stops_nyc_may2019` to get the coordinates and PolyLines I need. Map the bus stop ID from step 3 to the coordinates from bus_stops_nyc_may2019 and voila, you have the coordinates.
 
@@ -89,7 +89,7 @@ for i in vMonitor['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['Ve
     base_map
     ```
 
-    <iframe width="450" height="600" src='img/tanyanabi_dv_mtabus.html'></iframe>
+<iframe width="450" height="600" src='img/tanyanabi_dv_mtabus.html'></iframe>
 
 
 <!-- Millennial is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started. -->
