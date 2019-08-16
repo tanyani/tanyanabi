@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Text Formatting"
-author: "Paul Le"
-categories: sample
-tags: [sample]
+title: "Jupyter Notebook as Application Prototype: Recommendation System"
+author: "Tanya Nabila"
+categories: jupyter
+tags: [jupyter, widgets]
 image: arctic-1.jpg
 ---
 
